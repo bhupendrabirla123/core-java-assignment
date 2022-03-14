@@ -22,7 +22,7 @@ public class booleanwithandoroperators {
 			else {
 				System.out.println(b2);
 			}
-			if ((x+y==5)    (x-y==1)){
+			if ((x + y == 5)   ^ (x-y==1)){
 					System.out.println(b1);
 				
 				}
