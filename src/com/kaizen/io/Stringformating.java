@@ -14,7 +14,7 @@ public class Stringformating {
 		// hours, minutes and seconds
 		System.out.printf("hours %tH: minutes %tM: seconds %tS%n", date, date,date);
 		// index reference of the parameter $1 in this case
-		System.out.printf();
+//		System.out.print();
 
 		
 
