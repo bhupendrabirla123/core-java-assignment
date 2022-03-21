@@ -16,7 +16,7 @@ public class question1 {
 		System.out.println(" Enter your address ");
 		String address = in.next();
 		System.out.println();
-		System.out.printf("Name: "+ name + surname);
+		System.out.printf("Name: "+ name+"\t" + surname);
 		System.out.println();
 		System.out.print("age: "+ age);
 		System.out.println();
