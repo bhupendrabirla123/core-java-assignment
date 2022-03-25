@@ -13,7 +13,9 @@ public class Pattern2 {
 				System.out.print("*");
 			}
 			System.out.println();
+			
 		}
+		Pattern1.main(args);
 
 	}
 

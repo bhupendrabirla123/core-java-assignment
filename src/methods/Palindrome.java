@@ -8,25 +8,29 @@ public class Palindrome {
 		// TODO Auto-generated method stub
 		while(true) {
 			
+			
 	
 		Scanner palin = new Scanner(System.in);
 		System.out.println("Enter a number to check palin or not ");
 		int n = palin.nextInt();
+		int m=n;
 		int sum=0;
+		int a;
 		
-		for (int i=n; i>0;i--){
-			i = n%10;
-			n=n/10;
-			 sum =(sum*10)+i;
+		for (;m!=0;){
+			a= m%10;
 			
+			 sum =(sum*10)+a;
+			m=m/10;
 			
 			
 		}
+	
 		if (n == sum) {
 			System.out.println("palin");
 		}
 		else {
-			System.out.println(1%10);
+			System.out.println("not palin");
 		}
 	}
 
