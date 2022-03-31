@@ -25,6 +25,7 @@ public class Staticinjava {
 		count++;
 	}
 	public void show() {
+		name= "Birla";
 		System.out.println(rollNo);
 		System.out.println(name);
 		System.out.println(college);
@@ -43,7 +44,7 @@ public class Staticinjava {
 		// obj.show();
 		// System.out.println("*******");
 		Staticinjava.college = "oriental";
-		/// obj.show();
+		// obj.show();
 		// System.out.println("**********");
 		// obj1.show();
 		Staticinjava.print();

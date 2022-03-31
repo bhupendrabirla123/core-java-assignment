@@ -1,0 +1,65 @@
+Assignment -2 
+
+1. Why do languages have data types?
+Ans:- The languaes have different data types and they have different sizes , data types are important a data type contains the values that a variable might take.
+
+2. What are the broad 2 categories of data types in Java?
+Ans:- The broad 2 categories of data types in java are Premitive data types and Non Premitive data types.
+
+3. What are 4 classification of data types in Java under Primitives?
+Ans:-  The following are the data types in java under primitive data types:-
+1. Integer 
+It is further divided into the following four types:-
+1. byte 
+byte takes 1 byte (8bits) of space into the memory, it's range is -128 to +127.
+2. short
+shot takes 2 byte (16 bits) of space in memory, it's range is -32768 to +32767.
+3. int
+int takes 4 bytes (32 bits) of space in memory, it's range is -2147483648 to +2147483647.
+4. Long
+Long takes 8 bytes (64 bits ) of space in memory, it's range is -9,223,372,036,854,775,808 to +9,223,372,036,854,775,808. To represent Long value you need to provide suffix L ot l.
+2. Floating number
+This is used to declare floating values. 
+Floating numbers are also further devided into following:-
+1. Float
+Float takes 4 bytes (32 bits) of memory , and to use float we need to suffix with F or f.
+2. double
+double takes 8 byte (64 bits) of memory , and for using double you do not need to provide suffix becouse the java compiler takes floating numbers by default as double.
+3. Characters
+char is used to print the value of single characters, it's range is 0 to 65536. When assigning char variables the character is written between single quates.
+4. Boolean
+boolean takes only two values eigther true or false.
+
+ 4.  Why do we say that Java is a strongly typed language?
+Ans:-  This mean all operations are type- checked by the compiler for the compatibility. operations that are type legal will be executed and illegals will not be executed and generates erroe.
+
+5. What sub-categories of Integer data types also mention the size?
+Ans:- It is further divided into the following four types:-
+1. byte 
+byte takes 1 byte (8bits) of space into the memory, it's range is -128 to +127.
+2. short
+shot takes 2 byte (16 bits) of space in memory, it's range is -32768 to +32767.
+3. int
+int takes 4 bytes (32 bits) of space in memory, it's range is -2147483648 to +2147483647.
+4. Long
+Long takes 8 bytes (64 bits ) of space in memory, it's range is -9,223,372,036,854,775,808 to +9,223,372,036,854,775,808. To represent Long value you need to provide suffix L ot l.
+
+6. Does Java provide Unsigned integers? How do we achieve Unsigned feature in Java?
+Ans:-  Java does not provide unsigned integers directly but from java SE 8 we can assign a 32 bit integer value by using Integer class to use data type as unsigned data types. It's range is 0 to        2^32-1.
+
+
+7.  How many characters can Unicode-16 accommodate?
+Ans:-  Unicode 16 accomodates 65536 characters.
+
+8.What two problems Unicode solves?
+Ans:-  Following problems are solved by Unicode
+1. a particular code value corresponds to different letters in the different encoding schemes. 
+2. The encodings for languages with large character sets have variable length: Some common characters are encoded as single bytes, others require two or more bytes.
+
+
+9. Write five valid and five invalid variable names.
+Ans:- Valid variable names 
+Name, ID123, String_123, Integer$a, ajaf12dj
+Invalid variable names
+123_name,  id#,  all@,  if,    while
+

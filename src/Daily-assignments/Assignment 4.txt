@@ -1,0 +1,7 @@
+Assignment 4
+
+1. What all data types are allowed in the expression of the switch statement?
+Ans:- Switch works with byte, short, char, int premitive data types. It also works with boolean data types.
+
+2.  Why does the switch statement have better performance over the “if” statement?
+Ans:- A switch is better than if because at compile time compiler compiles each switch case and creates a jump table that it will use for selecting the path of execution.

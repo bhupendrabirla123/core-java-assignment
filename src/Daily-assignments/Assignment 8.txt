@@ -1,0 +1,9 @@
+Assignment 8  
+
+1. What is encapsulation?
+Ans:-  Encapsulation is a process of wrapping data into a single unit. It is used to hide the data . Using encapsulation we can creat a class read only or write only.
+
+2.  What are various types of class relationships, explain with example.
+Ans:- There are two types of class relationship in java are as follows:
+1. Is-a relationship:- It is a permanent relationship in which a class's properties are inherited to other class. In ineritance we stablish a permanent relationship between two classes.
+2. has-a relationship:- It's a temporary relationship in which we create a class's object in other class and access it's properties. In aggregation we stablish a temporary relationship between two classes.

@@ -6,11 +6,11 @@ public class CombineOL {
 	MulOL mul;
 	DivOL div;
 	
-	public int sum () {
+	public void sum () {
 		sum = new SumOL();
 		int d= sum.sum(41, 45);
-		//System.out.println(d);
-		return d;
+		System.out.println(d);
+	//	return d;
 	}
 	public void sub() {
 		sub = new SubOL();

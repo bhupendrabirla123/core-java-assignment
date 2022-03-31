@@ -1,0 +1,39 @@
+Assignment -1
+
+What do we mean when we say Java is architecture neutral?
+Ans:-  Java is architectural nuetral because the compiler code can be compiled on different processors.
+
+2.What do we mean when we say Java is portable?
+Ans:- Java is portable because while running a code on different processors the result is same.
+	The size of premitive data types is fixed unlike the C/C++. In C/C++  the size of a premitive data is varying on different processors but not in java.
+
+3.  What is a LTS release?
+Ans:-  LTS is refered to Long Term Support, In java the developers provide 8 years of service with LTS package or version of java/
+4. What is the current version of Java?
+Ans:- The latest LTS version of java is "JDK 17", and short term version is "JDk18".
+
+5. What is a Java compiler and what is its function?
+Ans:- Java compiler converts ".java" file into the ".Class" file.
+
+6. What are the main two components of JVM and what are their functions?
+Ans:-  The main two components of JVM are Class Loader and Execution Engine.
+Class loader loades the .class file into the JVM and Execution Engine executes the code and generates machine specific instructions.
+
+7. What is the difference between JVM, JRE and JDK?
+Ans:- 
+JVM :- JVM stands for java virtual machine. It loads the .class file , execute it and generate machine specific instructions. These instruction directly executed by CPU.It is platform independent. 
+JRE:- JRE stands for java runtime envirnoment. It provides runtime envirnoment to the JDK .
+It is platform dependent.
+JDK:-  JDK stands for java development kit . It is consisting of JRE and development tools. It is platform dependent.
+8. What are Java doc comments?
+Ans:- Java doc comments are multiple line comments which are placed before the class to describe functionality of the class. 
+
+9.What are code comments?
+Ans:- Java code comments are any comments which are given in the program are not executable by the compiler and they makes the program more readable.\
+
+10.What is the difference between Method Parameter and Method Arguments?
+Ans:-  Method parameters acts as a variable inside the method and you can as many as you want , you just need to seperate them with a comma only.
+Method arguments specifies the data passed to Method parameters.
+
+11. What is a just in time(JIT) compiler and how does it work?
+Ans:- It is essential part of the JRE and it is responsible for runtime performance of java based applications.  It is activated when a method is called and it compiles the byte codes of the method into the native machine lanuage and at the runtime the jvm calls the compiled code of that mehtod instead of interpriting it.

@@ -1,0 +1,9 @@
+Assignment 6
+
+1.  What are the different conversion characters available?
+Ans:-  Following five are the conversion characters available in java
+1. s for formating String
+2. d for formating decimal integers
+3. f for formatting floating point numbers
+4. t for formating date/time values
+5. b for boolean.

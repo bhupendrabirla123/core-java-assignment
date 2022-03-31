@@ -1,0 +1,53 @@
+Assignment Day 3
+
+1.What are the different types of operators available in Java?
+Ans:- Java has following operators
+1. Arithmatic operators
+2. Assignment operators
+3. Logical operators
+4. Bitwise operators
+5. Relational operators
+6. Misc operators
+2. What are the different types of Arithmetic operators available in Java?
+Ans:-  The following Arithmatic operators we use in java
+1. addition operator(+)
+2. subtraction operator (-)
+3. multiplication operator (*)
+4. division operators (/)
+5. modulus operator (%)
+
+3. How does “strictfp” ensure portability in Java?
+Ans:- While calculating floating point numbers on different platforms the results are different , as strictfp insures that the floating point calculations on any platform should give same results.
+
+4. At what levels can you apply “strictfp”?
+Ans:- strictfp can be applied at class level, interface level and at method level , depends on programmer requirments.
+
+5. What are postfix and prefix, increment and decrement(--/++) operators.
+Ans:- Postfix operators :- These operators are used after expressions and these operators evaluates old values first and than change the value according to the increment or decrement operators.
+Prefix operators:- These operators are used before expressions and these changes the value of variable first and than evaluation take place.
+increment operators(++):- This operators increses the value of the variable by one.We can make this change by using (+2) this will increase the value by 2.
+decrement operator (--):- This operators decreses the value of the variable by one.
+
+6. What are the four rules of binary operations?
+Ans:- 
+
+
+7. What is narrow/explicit/down type casting and what is widening/implicit/up type casting.
+Ans:-  Converting a lower data type to higher data type is known as widening casting.
+for example int to long conversion comes under up casting.
+Converting a higher data type to lower data types is known as narrow casting. for example long to int conversion comes under the down casting.
+
+8. What is harm in doing down casting.
+Ans:- In down casting we convert higher data type to lower data type in this process we might lose some data. for example let's take an double value 99.9 and convert it into int. When it is converted into int this value will become 99.
+
+
+
+ 
+
+
+
+
+
+
+
+

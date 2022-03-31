@@ -1,0 +1,60 @@
+Assignment 11
+
+1. What is inheritance? Explain with examples.
+Ans:-  Using properties of a class into  other classes is known as inheritance. It stablishes an "Is-a" relation between  classes. The class which is using properties of other class is known as sub-class/child class and the class whose properties are being used by child class is known as parent class or super class. We can inherit properties of one class to other by using extend keyword.
+For example take an Vehicle class as parent class and extend it into the Car class. now Car class can access all the properties the Vehicle class.
+Inheritance is divided into following 
+1. Single inheritance 
+2. Multi-level inheritance
+3. Multiple inheritance
+4. Hierarchical inheritance
+5. Hybrid inheritance
+In the above types of inheritance java do not support Multiple inheritance becouse it creates confusion for copiler if the parent classes have same named methods.
+
+
+2.  Why do we need to use inheritance?
+Ans:- 1. for code reusability 
+      2. for method overiding
+
+3.  What is the keyword used to achieve Inheritance in Java?
+Ans:-  To achieve inheritance in java we use "extend" keyword. syntax example
+public claass childclass extend parentclass{
+}
+here childclass and parentclasses are different classes and using extend keyword we inherit the properties of parentclass class into the childclass class.
+
+4. What is the use of the “super” keyword?
+Ans:- The super keyword reffers to objects of the super class. It is used to call methods and constructor of the super class. The other use of the super keyword is to remove confusion betwwen the two methods of the super class and sub class that have same names.
+
+5. How can a sub-class call a constructor of the super class.
+Ans:- A sub class can call a constructor of the super class by using super keyword. If you want to call a non paramaterized or paramaterized constructor for non-paramaterized use "super()" and for paramaterized "super(parameters here)" in a child class constructor.
+
+
+6. What is method overriding?
+Ans:- Whenever there is a same method with same parameters (no.of parameters and their data types)in parent class and child class but in child class the body is different is known as method overriding.
+
+
+7. Is multiple inheritance supported in Java?
+Ans:- No, multiple inheritance is not supported by java because if the parent classes hava same methods(name and no of parameters and data types of the parameters) and we call that method from
+	the child class than the compiler gets confused which method we have called.
+
+8. What is “Dynamic Binding”?
+Ans:- Whenever we are calling to a overridden method it is resolved at runtime rather than compile time is known as runtime polymorphism/dynamic binding.
+
+
+9. What is “Overloading resolution”, how it is done?
+Ans:- The process of selecting the most appropriate overloaded methods is called overloaded resolution, suppose that sum is a overloaded method
+	when we call overloaded methods the compiler selects suitable method to execute.
+
+10. Which keyword is used to prevent inheritance?
+Ans:- Final keyword is used to prevent inheritance.
+
+11.  Can a final method be overridden?
+Ans:- You can not override final method because final keyword does not allow to change anything (Even in body) but the final method can be overloaded.
+
+12. In the following code, we have created 3 Classes A, B, and C.class C extends Class B and Class B extends Class A. Each class has a method m1(), is there any way to call A’s m1() method from
+Class C?
+Ans:- Yes, we can call A's method by creating the object of the class A.
+ 
+
+
+

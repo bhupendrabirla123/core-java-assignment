@@ -1,11 +1,10 @@
-package methods;
+package Inheritance;
 
-public class Evenodd {
- 
+public class M {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		E e = new E();
 	}
 
 }
