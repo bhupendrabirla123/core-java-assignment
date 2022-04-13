@@ -31,6 +31,7 @@ public class CombineOL {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		CombineOL obj = new CombineOL();
+	
 		obj.sum();
 		obj.sub();
 		obj.Mul();
