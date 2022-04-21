@@ -1,6 +1,6 @@
 package com.kaizen.String;
 
-public class Substring {
+public class Characters {
 
 	public static char arr[];
 	public static boolean check(char ch) {
@@ -14,7 +14,7 @@ public class Substring {
 	}
 
 	public static void main(String[] args) {
-		String name = "I am himanshu";
+		String name = "rr am rr himanshu";
 		name = name.toLowerCase();
 		
 		arr = new char[name.length()];

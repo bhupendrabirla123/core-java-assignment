@@ -2,7 +2,7 @@ package com.kaizen.String;
 
 public class Substringpalindrome {
 	public static void main(String[] args) {
-		String sen = "he loves his mom and dad";
+		String sen = "I loves mom and dad";
 		String[] arr = sen.split(" ");
 		for (int i = 0; i < arr.length; i++) {
 			String temp = arr[i];

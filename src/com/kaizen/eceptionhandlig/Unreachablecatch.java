@@ -9,10 +9,10 @@ public class Unreachablecatch {
 			int arr[] = new int[6];
 			System.out.println(a/b);
 		}
-		System.out.println("hello");
-		catch(ArrayIndexOutOfBoundsException e) {
-			System.out.println("hello");
-		}
+		
+//		catch(ArrayIndexOutOfBoundsException e) {
+//			System.out.println("hello");
+//		}
 	}
 
 }
